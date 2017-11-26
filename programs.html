@@ -1,0 +1,154 @@
+<!-- Colorado Movement Company
+File Name: programs.html
+Developers: Vanessa Solano, Mario Zamora
+Date Created: 11/03/2017
+Last Modified: 11/25/2017 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"> 
+    <script>
+        function toggle(id){
+        var onediv = document.getElementById(id);
+        var divs=['youth-fitness','senior-fitness','general-fitness','personal-training','yoga'];
+        for (var i=0;i<divs.length;i++){
+            if (onediv != document.getElementById(divs[i])){
+            document.getElementById(divs[i]).style.display='none';
+            }
+        }
+        onediv.style.display = 'block';
+        }   
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <div id="logo">
+            <img src="cmc-logo-header.jpg"/>
+        </div>
+        <div class="menu-wrap">
+        <nav class="primary-nav">
+                <ul class="primary-menu">
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="about" class="prim-menu"><a href="#">About</a>
+                        <ul class="sub-menu">
+                            <li id="our-story"><a href="ourStory.html">Our Story</a></li>
+                            <li id="coaches-staff"><a href="coachesStaff.html">Coaches/Staff</a></li>
+                            <li id="contact-directions"><a href="contactDirections.html">Contact/Directions</a></li>
+                        </ul>
+                    </li>
+                    <li id="programs" class="prim-menu"><a href="programs.html">Programs</a>
+                    </li>
+                    <li id="schedule" class="prim-menu"><a href="schedule.html">Schedule</a>
+                        <ul class="sub-menu">
+                            <li id="rsvp"><a href="rsvp.html">RSVP</a></li>
+                        </ul>
+                    </li>
+                    <li id="get-started"><a href="getStarted.html">Get Started</a></li>
+                    <li id="more" class="prim-menu"><a href="#">More</a>
+                        <ul class="sub-menu">
+                            <li id="blog"><a href="blog.html">Blog</a></li>
+                             <li id="social-media"><a href="socialMedia.html">Social Media</a></li>
+                             <li id="contact"><a href="contact.html">Contact</a></li>
+                         </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div id="banner">
+            <img src="cross-fit.jpg"/>
+        </div>
+        
+        <h1 style="text-align:center">Programs</h1>
+        <div id="program-menu">
+        <h2 style="text-align:center"><a href="#youth-fitness" onclick="toggle('youth-fitness');">Youth Fitness</a> | <a href="#senior-fitness" onclick="toggle('senior-fitness');">Senior Fitness</a> | <a href="#general-fitness" onclick="toggle('general-fitness');">General Fitness</a> | <a href="#personal-training" onclick="toggle('personal-training');">Personal Training</a> | <a href="#yoga" onclick="toggle('yoga');">Yoga</a></h2>    
+        </div>
+
+        <div class="program-main">
+        <div id="youth-fitness" style="display:none">
+            <blockquote>
+            <h2>Youth Fitness Programs</h2>
+            <h3>The Beginner Future Program:</h3>
+            <p>For adolescents who are just beginning physical fitness and strength and conditioning.  This could either be for performance enhancement or general fitness enhancement.  This program is designed to learn the fundamentals of movement.</p>
+            <h3>The Future Program:</h3>
+            <p>For adolescents who are mentally and physically advanced above the beginner program.  This is an advanced general strength and conditioning program for the future of our company.  The Future Program’s goal is to change the “norm” of our general fitness in society today.  These kids do not seek for competitive athletic enhancement, these adolescents are seeking to improve their daily life.</p>
+            <h3>Young Athlete Program:</h3>
+            <p> For advanced adolescents seeking a goal of athletic enhancement.  This program is focused on creating and teaching the most comprehensive scientific based youth strength and conditioning program in the country for sports performance training.  The program is specifically geared to be more athletic and sports specific based training.</p>
+            <h3>Young Special Ops:</h3>
+            <p>For adolescents with mental or physical handicaps.  This program is designed and implemented to improve daily functional living, cardiovascular health, balance, and stability.  Their program will have some focus around team, partner, or group challenges and games.  Another feature of this program is they would also be involved with other members of the gym and would workout with the other members.</p>
+        </blockquote>
+        </div>
+        <div id="senior-fitness" style="display:none">
+            <blockquote>
+            <h2>Senior Fitness Program</h2>
+            <h3>Legends Program:</h3>
+            <p>General fitness program geared towards addressing many of the problems that face our aging population today.  Depending on age, the programs will be specifically geared accordingly.  Any and all movements will be scalable for each individual regardless of their physical capability.  Programs will be focused on building strength, increasing flexibility, improving balance, and fixing any postural or movement dysfunction.  
+            “Aerobic exercises have numerous cardiovascular and musculoskeletal benefits for older adults, and resistance exercise training is the only therapy known to consistently improve muscle mass, strength, power, and quality, as well as overall physical function in older adults” (Lee 2017).  Each senior fitness member will be maintenance, just like every other program in the gym.  The primary goal of this program is to 
+            greatly improve quality of daily life for this older population.  Social interaction is also a large part of this program.  These individuals will have a place to get out of the house and build relationships with others before, during, and after their class.  Most of the older population has minimal experience in a fitness facility, therefore education is going to play a large part for these individuals.</p>
+            </blockquote>
+        </div>
+        <div id="general-fitness" style="display:none">
+            <blockquote>
+            <h2>General Fitness Programs</h2>
+            <h3>Competitive Strength and Conditioning for Cross-Training (CrossFit):</h3>
+            <p>This class is offered for general fitness members and also other members who belong to other programs.  This class has the largest variety of exercise, as CrossFit defines, “Constantly varied functional movements performed at high intensity” (CrossFit, Inc. 2017).  This class combines both running, weight lifting, gymnastics, and other cardiovascular movements.  The important aspect in this class and for every class,
+            is the amount of intensity and effort put into a workout.  Performing different exercises, at different times, and at different loads at a high intensity has researched studied gains in fitness.  This class is the most competitive class offered in the gym, it provides an environment of fun competition amongst other members of the class.  The goal of this class is for members to be able to perform “life” better, or 
+            whatever fitness goal they are seeking to achieve.</p>
+            <h3>Competitive CrossFit:</h3>
+            <p>For the individual whose goal is to take their fitness ability in CrossFit to a higher level.  This class is structured to create a higher level of fitness ability then the general CrossFit class.  An individual in this program wishes to compete in the sport of CrossFit through competitions or other CrossFit events offered to the entire country, or also just very much enjoys in fitness.  This class is structured 
+            longer, a two hour class instead of one hour class, due to the amount of training required to reach a higher potential.</p>
+            <h3>Sports Performance:</h3>
+            <h3>Barbell Club:</h3>
+            <p>This class is designed for individuals who are wanting to specifically focus on enhancing their Olympic weightlifting movements.  This class focuses primarily on Olympic weightlifting and general weightlifting derivatives.  The purpose of this class is for teaching and enhancing technique of the lifts.  Proper technique is coached and worked on for achieving an increase in weight lifted.  Individuals can participate 
+            in this class for focusing primarily on Olympic weightlifting as a sport or individuals just seeking to get better specifically in these movements for their other classes.</p>
+            <h3>Low Impact Suspension Training:</h3>
+            <p>This class style is for individuals who are not seeking to put great amounts of stress or mass on their bodies.  These individuals could be seeking this style of fitness for various reasons like coming back from an injury, having constant pain in some part of their body, no enjoyment of weightlifting, or enjoyment of these physical workouts.  These workouts consist of body weight assisted movements, rowing, biking, 
+            exercise cardiovascular machines, or any other type of low intensity exercise/movement.</p>
+            <h3>Burn:</h3>
+            <p>This class is designed for individuals who only have a lunch hour to get their physical exercise in during the day.  These classes are 30 minutes to 60 minutes long, depending on the client’s available time.</p>
+                <ul>
+                    <li><strong>Light Burn: </strong>Light to Moderate weight (no more than 50 pounds), cardiovascular training, and high intensity for shorter periods of time.  The purpose of this is to emphasize light weight movements and body weight resistance for this specific type of strength and conditioning based training program.  These workouts would consist of: kettlebells, medicine balls, sled pushing, body weight exercises, 
+                    pulling exercises, and other total body exercises.  This is a good beginner’s progression into a heavier type Burn training.  </li>
+                    <li><strong>Heavy Burn: </strong>Moderate to Heavy weight, cardiovascular training, and high intensity for shorter periods of time.  The purpose of this program is to perform more technically difficult exercises and be a more vigorous type of strength and conditioning training for further advanced members.  These workouts would consist of: a barbell with weight on it, higher impact movements like jumping, and more dynamic movements.  </li>
+                </ul>
+            </blockquote>
+        </div>
+        <div id="personal-training" style="display:none">
+            <blockquote>
+            <h2>Personal Training</h2>
+            <h3>Personal Training (30-60 Minute Sessions):</h3>
+            <p>There are two different types of personal training services offered.  A member of the gym can seek a monthly membership that consists of personal training three times a week.  A needs assessment would be performed on the member to determine what their physical capabilities are and the needs of their body.  Another member could seek personal training in an individual type session or sessions.  Distinct types of personal training services offered are:</p>
+                <ul>
+                    <li>Free Weight Training</li>
+                    <li>Weight Lifting</li>
+                    <li>Power Lifting</li>
+                    <li>CrossFit</li>
+                </ul>
+            </blockquote>
+        </div>
+        <div id="yoga" style="display:none"> 
+            <blockquote>
+            <h2>Yoga</h2>
+            <h3>Yoga:</h3>
+            <p>This class offered is a total mind-body workout that has many physical and mental benefits.  Some of the physical benefits of yoga are increased flexibility, increased muscle strength and tone, improved respiration/energy/vitality, maintaining a balanced metabolism, weight reduction, cardio and circulatory health, improved athletic performance, and protection from injury (The Benefits of Yoga 2017).  Yoga is also very beneficial for individual’s 
+            mental health.  Yoga is known to help an individual manage stress which not only helps an individual’s outlook on life but can help with neck pain, sleeping problems, and headaches caused by stress.  Mental well-being is also improved from meditation and breathing that is incorporated by yoga.  The Colorado Movement Company will offer yoga classes in the gym and hire yoga instructors to teach classes.  This is a unique service that will be offered 
+            because you do not have to be a member to attend a yoga class.  Yoga will be included in the membership for a member, but if one is not a member, they can attend the class for $5.  This class is structured uniquely this way for a couple of reasons.  This class offered is a low risk type of exercise and with a certified yoga instructor, this class is completely safe for any fitness level.  Colorado Movement Company sees two benefits from this structure, 
+            the first being additional revenue from non-members attending class.  More beneficially, there is great marketing potential for non-members to eventually join the company and become a member. </p>
+        </blockquote>
+        </div>
+    </div>
+
+
+    </main>
+    <footer></footer>
+
+</body>
+</html>
