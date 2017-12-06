@@ -44,10 +44,11 @@ ul {
     margin: 0;
     list-style: none;
     padding-top: 80px;
+    text-transform: uppercase;
   }
 
   ul li {
-    font: bold 30px/40px sans-serif;
+    font: bold 20px/30px sans-serif;
     display: inline-block;
     margin-right: -4px;
     position: relative;
@@ -85,7 +86,7 @@ ul {
     display: block; 
     color: #fff;
     text-shadow: 0 -1px 0 #000; 
-    font-size: 20px;
+    font-size: 15px;
   }
   ul li ul li:hover { 
       background: #666; 
