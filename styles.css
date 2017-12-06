@@ -137,3 +137,18 @@ footer {
     color: #555;
     clear: both;
     }
+
+.times{
+    text-align: center;
+    font-size: 20px;
+}
+
+#times{
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr {
+    color: #555;
+}
