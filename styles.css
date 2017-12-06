@@ -121,3 +121,13 @@ a {
     color: #ECAF64;
     font-weight: 500;
 }
+
+footer {
+    width: 100%;
+    height: 28px;
+    border-top: 1px solid #E0E0E0;
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    text-align: center; 
+    }
