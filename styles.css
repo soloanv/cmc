@@ -40,7 +40,7 @@ header::after{
     width: 100%;
 }
 
-ul {
+nav ul {
     text-align: left;
     display: block;
     margin: 0;
@@ -49,7 +49,7 @@ ul {
     text-transform: uppercase;
   }
 
-  ul li {
+ nav ul li {
     font: bold 20px/30px sans-serif;
     display: inline-block;
     margin-right: -4px;
@@ -63,11 +63,11 @@ ul {
     -o-transition: all 0.2s;
     transition: all 0.2s;
   }
-  ul li:hover {
+ nav ul li:hover {
     background: #555;
     color: #fff;
   }
-  ul li ul {
+ nav ul li ul {
     padding: 0;
     position: absolute;
     top: 60px;
@@ -83,18 +83,18 @@ ul {
     -transition: opacity 0.2s;
     z-index: 1;
   }
-  ul li ul li { 
+ nav ul li ul li { 
     background: #555; 
     display: block; 
     color: #fff;
     text-shadow: 0 -1px 0 #000; 
     font-size: 15px;
   }
-  ul li ul li:hover { 
+nav  ul li ul li:hover { 
       background: #666; 
     }
 
-  ul li:hover ul {
+nav  ul li:hover ul {
     display: block;
     opacity: 1;
     visibility: visible;
@@ -103,7 +103,6 @@ ul {
 main {
     position: relative;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 h1 {
