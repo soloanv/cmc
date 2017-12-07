@@ -58,23 +58,44 @@ Last Modified: 12/06/2017 -->
         <div id="banner">
     <img src="weights.jpg"/>
         </div>
-        
+
         <h1>Contact</h1>
-        <form>
-            First Name:
-            <input type="text" name="firstname"></br>
-            Last Name:>
-            <input type="text" name="lastname"></br>
-            Email:
-            <input type="text" name="firstname"></br>
-            Phone Number:
-            <input type="text" name="firstname"></br>
-            Gender:
-            <input type="text" name="firstname"></br>
-            What class are you interestred in?:
-            <input type="text" name="firstname"></br>
-            What experience do you have with CrossFit:
-            <input type="text" name="firstname"></br>
+        <form id="template" action="" target="_blank" method="GET">
+            <p>Please fill in the contact form and a representative from the Colorado Movement Company will get back you in 1-2 business days.</p>
+            First Name:</br>
+            <input type="text" name="firstname" placeholder="First Name"></br>
+            Last Name:</br>
+            <input type="text" name="lastname" placeholder="Last Name"></br>
+            Email:</br>
+            <input type="text" name="email" placeholder="Email Address"></br>
+            Phone Number:</br>
+            <input type="text" name="phonenumber" placeholder="000-000-0000"></br>
+            Gender:</br>
+            <select list="gender" name="gender" placeholder="Please select one">
+                <option value="Please select one">Please select one</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select></br>
+            What class are you interestred in?:</br>
+            <select id="class" name="class" placeholder="Please select one">
+                <option value="Please select one">Please select one</option>
+                <option value="Youth Fitness">Youth Fitness</option>
+                <option value="Senior Fitness">Senior Fitness</option>
+                <option value="General Fitness">General Fitness</option>
+                <option value="Personal Training">Personal Training</option>
+                <option value="Yoga">Yoga</option>
+            </select></br>
+            What experience do you have with CrossFit?:</br>
+            <select id="experience" name="experience" placeholder="Please select one">
+                <option value="Please select one">Please select one</option>
+                <option value="Begginer">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select></br>
+            Questions/Comments:</br>
+            <textarea name="message" rows="6" cols="150"> 
+            </textarea></br>
+            <input type="submit" value="Submit">
         </form>
         
     </main>
