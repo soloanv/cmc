@@ -111,11 +111,20 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
-    color: red;
+    font-weight: 500;
+    color: #ECAF64;
 }
 
-#mission , #contact{
+#mission{
+    text-align: center;
+}
+
+.misson-text {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 50px;
+}
+
+#contact {
     text-align: center;
 }
 
@@ -147,8 +156,4 @@ footer {
     text-align: left;
     margin-right: auto;
     margin-left: auto;
-}
-
-hr {
-    color: #555;
 }
