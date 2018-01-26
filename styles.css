@@ -157,6 +157,7 @@ footer {
     margin-left: auto;
 }
 
+/* This section of css styles is for the form template*/
 #template {
     font-family: 'Philosopher', sans-serif;
     background-color: black;
@@ -205,3 +206,4 @@ input[type=submit] {
     cursor: pointer;
     width: 50%;
 }
+/*End of the form css styles*/
